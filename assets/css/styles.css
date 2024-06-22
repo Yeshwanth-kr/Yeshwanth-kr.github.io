@@ -277,8 +277,59 @@ img {
 
 .home__profession{
   position: relative;
-  font-size: var(--big-font-size);
+  font-size: 2.3rem;
   color: var(--text-color);
+}
+
+.home__profession span::before{
+  content: "Web Developer";
+  animation: words 20s infinite;
+}
+
+.home__profession span::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--body-color);
+  border-left: 2px solid var(--text-color);
+  right: -8px;
+  animation: cursor .8s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+  to{
+    border-left: 2px solid #ff7f5000;
+  }
+}
+
+@keyframes words {
+  0%,20%{
+    content:"Web Developer";
+  }
+  21%,40%{
+    content: "Backend Developer";
+  }
+  41%,60%{
+    content:"Frontend Developer";
+  }
+  61%,80%{
+    content:"Gamer";
+  }
+  81%,100%{
+    content:"Hacker";
+  }
+}
+
+@keyframes typing {
+  10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+    width: 0px;
+    /* position: relative; */
+  }
+  5%,20%,25%,40%,45%,60%,65%,80%,85%{
+    width: calc(100% + 8px);
+    /* position: absolute; */
+  }
 }
 
 .home__profession::after{
