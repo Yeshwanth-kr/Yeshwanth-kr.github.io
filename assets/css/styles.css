@@ -322,14 +322,25 @@ img {
 }
 
 @keyframes typing {
-  10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
-    width: 0px;
-    /* position: relative; */
-  }
-  5%,20%,25%,40%,45%,60%,65%,80%,85%{
+  0%,2%,20%,22%,40%,42%,60%,62%,80%,82%,100%{
     width: calc(100% + 8px);
-    /* position: absolute; */
   }
+  10%,15%{
+    width: calc(22% + 8px);
+  }
+  30%,35%{
+    width: calc(0% + 8px);
+  }
+  50%,55%{
+    width: calc(0% + 8px);
+  }
+  70%,75%{
+    width: calc(64% + 8px);
+  }
+  90%,95%{
+    width: calc(62% + 8px);
+  }
+  
 }
 
 .home__profession::after{
