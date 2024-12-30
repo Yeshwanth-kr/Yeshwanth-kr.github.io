@@ -163,6 +163,7 @@ img {
 .nav__logo{
   color: var(--title-color);
   font-weight: var(--font-bold);
+  font-size: var(--normal-font-size);
 }
 
 .nav__toggle,
