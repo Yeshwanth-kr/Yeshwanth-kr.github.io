@@ -173,6 +173,10 @@ img {
   cursor: pointer;
 }
 
+.hidden_seo{
+  display: none;
+}
+
 /* Navigation for mobile devices */
 @media screen and (max-width: 1150px){
   .nav__menu{
