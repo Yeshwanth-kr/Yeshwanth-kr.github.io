@@ -310,13 +310,13 @@ img {
 
 @keyframes words {
   0%,20%{
-    content:"Web Developer";
+    content:"FullStack Developer";
   }
   21%,40%{
     content: "Backend Developer";
   }
   41%,60%{
-    content:"Frontend Developer";
+    content:"DevOps";
   }
   61%,80%{
     content:"Gamer";
@@ -331,13 +331,13 @@ img {
     width: calc(100% + 8px);
   }
   10%,15%{
-    width: calc(22% + 8px);
+    width: calc(0% + 8px);
   }
   30%,35%{
     width: calc(0% + 8px);
   }
   50%,55%{
-    width: calc(0% + 8px);
+    width: calc(60% + 8px);
   }
   70%,75%{
     width: calc(64% + 8px);
