@@ -131,6 +131,7 @@ img {
 
 .section {
   padding-block: 5rem 2rem;
+  min-height: 100vh;
 }
 
 .section__title {
