@@ -9,7 +9,7 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- About Me -->
+  <!-- Work -->
   <url>
     <loc>https://yeshwanth.online/#work</loc>
     <lastmod>2025-06-23</lastmod>
@@ -17,7 +17,7 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Skills -->
+  <!-- Info -->
   <url>
     <loc>https://yeshwanth.online/#info</loc>
     <lastmod>2025-06-23</lastmod>
@@ -25,7 +25,7 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Projects -->
+  <!-- Services -->
   <url>
     <loc>https://yeshwanth.online/#services</loc>
     <lastmod>2025-06-23</lastmod>
