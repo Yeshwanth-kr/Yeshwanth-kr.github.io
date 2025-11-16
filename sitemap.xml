@@ -9,6 +9,14 @@
     <priority>1.0</priority>
   </url>
 
+  <!-- Profile Picture -->
+    <url>
+    <loc>https://www.yeshwanth.online/assets/img/home-perfil.webp</loc>
+    <lastmod>2025-11-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
   <!-- Work -->
   <url>
     <loc>https://yeshwanth.online/#work</loc>
