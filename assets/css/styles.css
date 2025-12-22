@@ -315,7 +315,7 @@ img {
 
   0%,
   20% {
-    content: "FullStack Developer";
+    content: "SDE";
   }
 
   21%,
@@ -357,7 +357,7 @@ img {
 
   10%,
   15% {
-    width: calc(0% + 8px);
+    width: calc(77% + 8px);
   }
 
   30%,
