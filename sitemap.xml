@@ -51,7 +51,7 @@
 
   <!-- Projects -->
   <url>
-    <loc>https://visual-search.yeshwanth.online/</loc>
+    <loc>https://visualize.yeshwanth.online/</loc>
     <lastmod>2025-06-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -72,7 +72,7 @@
   </url>
 
   <url>
-    <loc>https://content-dashboard.yeshwanth.online/</loc>
+    <loc>https://feed.yeshwanth.online/</loc>
     <lastmod>2025-06-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
